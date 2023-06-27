@@ -9,8 +9,8 @@ I have no web development experience - just started. I want to learn front-end w
 * HTML
 * CSS
 ## Code example
-    <!DOCTYPE html>
-    <html lang="en">
+```html
+		<html>
     <head>
     	<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +20,7 @@ I have no web development experience - just started. I want to learn front-end w
     	<h1>Hello World!</h1>
     </body>
     </html>
+```
 ## Experience
 I have about 10 years experience of creating/editing macroses in world of warcraft.
 Also I have [this](https://mahiko.github.io/rsschool-cv/cv) project in development.
