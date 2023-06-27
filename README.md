@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Mahiko.github.io/rsschool-cv/cv
