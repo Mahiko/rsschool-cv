@@ -11,7 +11,7 @@
 ### __About me__
 I have no web development experience - just started.\
 I want to learn front-end web development to develop some pet projects in my free time, participate in open source development and maybe some freelancing.\
-For better or worse, I have no plans to change my profession yet.\
+For better or worse, I have no plans to change my profession yet.
 
 ---
 
@@ -39,12 +39,12 @@ For better or worse, I have no plans to change my profession yet.\
 
 ### __Experience__
 I have about 10 years experience of creating/editing macroses in world of warcraft.\
-Also I have [this](https://mahiko.github.io/rsschool-cv/cv) project in development.\
+Also I have [this](https://mahiko.github.io/rsschool-cv/cv) project in development.
 
 ---
 
 ### __Education__
-Up till now I mostly learned on youtube.\
+Up till now I mostly learned on youtube.
 
 ---
 
