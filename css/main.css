@@ -1,5 +1,3 @@
-@import "./reset.css";
-
 html {
 	font-size: 62.5%;
 	color: #222222;
@@ -8,17 +6,16 @@ html {
 }
 
 body {
-	font-family: serif;
 	background-image: url('./../img/Background1.png');
-	background-size: contain; 
+	background-size: contain;
 	background-repeat: no-repeat;
 	min-height: 100%;
-
+	font-family: serif;
 }
 
 h2 {
-	font-size: 4.5rem;
 	font-family: 'Abril Fatface', cursive;
+	font-size: 4.5rem;
 }
 
 h3 {
@@ -49,10 +46,10 @@ p {
 /* --navbar-- */
 
 .nav {
-	margin: 18rem 3.5% 1rem;
-	font-size: 2rem;
 	display: flex;
 	justify-content: flex-end;
+	margin: 18rem 3.5% 1rem;
+	font-size: 2rem;
 }
 
 .nav__list {
@@ -123,7 +120,7 @@ p {
 }
 
 .header__top {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	border-radius: 30px 30px 0 0;
 	padding: 3rem 0;
 	position: relative;
@@ -132,7 +129,7 @@ p {
 }
 
 .header__bottom {
-	background-color: rgb(236, 236, 236);
+	background-color: #ececec;
 	border-radius: 0 0 30px 30px;
 	padding: 3rem 0;
 	position: relative;
@@ -157,7 +154,7 @@ p {
 }
 
 .authour__work {
-	background-color: rgb(229, 229, 229);
+	background-color: #e5e5e5;
 	padding: 5px 15px;
 	border-radius: 30px;
 	text-align: center;
@@ -177,15 +174,15 @@ p {
 }
 
 .link__github:hover img {
-	background-color: rgb(103, 156, 255);
+	background-color: #679cff;
 }
 
 .link__discord:hover img {
-	background-color: rgb(103, 156, 255);
+	background-color: #679cff;
 }
 
 .link__linkedin:hover img {
-	background-color: rgb(103, 156, 255);
+	background-color: #679cff;
 }
 
 .header__bottom {
@@ -216,7 +213,7 @@ p {
 /* --main content-- */
 
 .about__author {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	padding: 3rem;
 	display: flex;
 	flex-direction: column;
@@ -225,7 +222,7 @@ p {
 }
 
 .skills {
-	background-color: rgb(236, 236, 236);
+	background-color: #ececec;
 	padding: 3rem;
 }
 
@@ -242,7 +239,7 @@ p {
 }
 
 .skills__container_box {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	border-radius: 30px;
 	padding: 1rem 0.5rem;
 	width: 47%;
@@ -258,20 +255,20 @@ p {
 }
 
 .css-box {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	width: 40%;
 }
 
 .code-example {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	padding: 3rem;
 }
 
 .code__container {
 	-ms-overflow-style: none;
-  scrollbar-width: none;
+	scrollbar-width: none;
 	font-size: 2rem;
-	background-color: rgb(236, 236, 236);
+	background-color: #ececec;
 	width: 92%;
 	margin: auto;
 	align-items: center;
@@ -283,7 +280,7 @@ p {
 }
 
 .experience {
-	background-color: rgb(236, 236, 236);
+	background-color: #ececec;
 	padding: 3rem;
 }
 
@@ -296,18 +293,18 @@ p {
 .experience img {
 	width: 60rem;
 	padding: 1rem;
-	background-color: rgb(255, 250, 250);
+	background-color: #fffafa;
 	border-radius: 10px;
 	margin: 1rem 0;
 }
 
 .education {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	padding: 3rem;
 }
 
 .education__container {
-	border-bottom: 1px solid	#fff;
+	border-bottom: 1px solid #ffffff;
 	padding-bottom: 1rem;
 	display: flex;
 	flex-direction: row;
@@ -331,7 +328,7 @@ p {
 }
 
 .english {
-	background-color: rgb(236, 236, 236);
+	background-color: #ececec;
 	padding: 3rem;
 }
 
@@ -353,7 +350,7 @@ p {
 /* --footer-- */
 
 .footer {
-	background-color: rgb(242, 242, 242);
+	background-color: #f2f2f2;
 	padding: 1rem;
 	border-radius: 0 0 30px 30px;
 	margin-bottom: 2rem;
@@ -373,7 +370,7 @@ p {
 }
 
 .github img:hover {
-	background-color: rgb(103, 156, 255);
+	background-color: #679cff;
 }
 
 .footer span {
@@ -393,47 +390,56 @@ p {
 }
 
 .rsschool img:hover {
-	background-color: rgb(103, 156, 255);
+	background-color: #679cff;
 }
 
 @media (max-width:1000px) {
 	.nav {
 		margin: 2rem 3.5% 1rem;
 	}
+
 	.nav__list {
 		width: 100%;
 		justify-content: space-evenly;
 		gap: 1rem;
 	}
+
 	.container {
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.header {
 		width: 95%;
 	}
+
 	.content__container {
 		width: 95%;
 		margin-top: 1rem;
 	}
+
 	.header__top {
 		flex-direction: row-reverse;
 	}
+
 	.author__container {
 		margin: 0;
 	}
+
 	.user__avatar__container {
 		top: 0;
 	}
+
 	.skills__container_box {
-			gap: 2rem;
-		}
-}	
+		gap: 2rem;
+	}
+}
 
 @media (max-width:600px) {
 	.nav {
 		margin: 2rem 3.5% 1rem;
 	}
+
 	.nav__list {
 		width: 100%;
 		justify-content: space-evenly;
@@ -441,38 +447,48 @@ p {
 		gap: 1rem;
 		align-items: center;
 	}
+
 	.container {
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.header {
 		width: 95%;
 	}
+
 	.content__container {
 		width: 95%;
 		margin-top: 1rem;
 	}
+
 	.header__top {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.author__container {
 		margin: 0;
 	}
+
 	.user__avatar__container {
 		top: 0;
 	}
+
 	.skills__container_box {
 		width: 98%;
 	}
+
 	.education__container {
 		flex-direction: column;
 	}
+
 	.education__text h6 {
 		margin: 1rem auto;
 	}
+
 	.footer_container {
 		flex-direction: column;
 		gap: 2rem;
 	}
-}	
+}
