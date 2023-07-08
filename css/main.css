@@ -1,8 +1,8 @@
 html {
+	scroll-behavior: smooth;
 	font-size: 62.5%;
 	color: #222222;
 	height: 100%;
-
 }
 
 body {
